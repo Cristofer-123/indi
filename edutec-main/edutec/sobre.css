@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    background-color: rgba(232, 232, 238, 0.801);
+}
+
+.nav{
+    padding-top: 20px;
+    padding-bottom: 38px;
+    list-style: none;
+    background-color: rgb(38, 5, 59);
+    width: 100%;
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.nav li{
+    display: inline; 
+}
+
+.nav li a{
+    margin-top: 20px;
+    color: white;
+    text-decoration: none;
+    padding: 50px;  
+    font-size: 20px;
+    margin-left: 70px;
+}
+.nav li a:hover{
+     background-color: rgba(112, 108, 116, 0.603);
+     padding-top: 12px;
+     padding-bottom: 12px;
+     border-radius: 50px;
+}
+
+.pesquisa{
+    margin-bottom: 30px;
+    margin-left: 885px;
+    background: rgb(228, 228, 235);
+    width: 365px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pesquisatext{
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.pesquisabotao{
+    margin-bottom: 20px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    position: absolute;
+    top: 2.6%;
+    left: 2%;
+}
